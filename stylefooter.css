@@ -1,0 +1,39 @@
+.sosmed {
+  list-style: none;
+  display: inline;
+  border: 2px solid #ffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  font-size: 14px;
+}
+
+.footer-title {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.back-to-top {
+  background: #00a2ff;
+}
+
+#topbar {
+  background: white;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+#topbar .contact-info a {
+  color: #000;
+}
