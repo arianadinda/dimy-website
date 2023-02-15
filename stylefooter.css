@@ -70,62 +70,6 @@ a {
   margin-right: 1px;
 }
 
-/* Section */
-.base-padding {
-  padding: 60px 0;
-}
-h1 {
-  z-index: 1;
-  position: relative;
-}
-
-.step-container {
-  padding: 0 20%;
-}
-
-.ant-steps {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color: rgb(0, 0, 0);
-  font-size: 14px;
-  font-variant: tabular-nums;
-  line-height: 1.5;
-  list-style: none;
-  font-feature-settings: "tnum" "tnum";
-  width: 100%;
-  font-size: 0;
-}
-
-.ant-steps-label-vertical .ant-steps-item {
-  overflow: visible;
-}
-
-.ant-steps-item {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-}
-.ant-steps-item-container {
-  outline: 0;
-}
-
-[role="button"] {
-  touch-action: manipulation;
-  cursor: pointer;
-}
-
-.ant-steps-dot .ant-steps-item-tail {
-  top: 2px;
-  width: 100%;
-  margin: 0 0 0 70px;
-  padding: 0;
-}
-.ant-steps-item-tail {
-  position: absolute;
-  left: 0;
-}
-
 /*text*/
 .content-container {
   height: 100%;
