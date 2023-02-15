@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", "San-serif", "important";
   color: #444444;
 }
 
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", "San-serif", "important";
 }
 
 /*--------------------------------------------------------------
@@ -364,7 +364,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #191919;
+  color: #1919193d;
 }
 
 .navbar-mobile a:hover,
@@ -406,7 +406,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #cc1616;
+  color: white;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -416,6 +416,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
@@ -497,6 +498,7 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -550,10 +552,171 @@ section {
 }
 
 /*--------------------------------------------------------------
+<<<<<<< HEAD
+=======
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #cc1616;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.base-padding {
+  padding: 60px 0;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.counter-item {
+  font-size: 7em;
+  font-weight: 700;
+  color: #00a2ff;
+}
+
+.top-info p:first-of-type {
+  text-transform: uppercase;
+  color: #00a2ff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.top-info p:last-of-type {
+  margin-top: -20px;
+}
+
+.pt-5,
+.py-5 {
+  padding-top: 3rem !important;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.counter-button {
+  border-radius: 0;
+  background: 0 0;
+  border: 2px solid #00a2ff;
+  color: #00a2ff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+button,
+html {
+  -webkit-appearance: button;
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+.why-us {
+  padding-top: 10px;
+}
+
+.why-us .box {
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+}
+
+.why-us .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ed5b5b;
+}
+
+.why-us .box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  color: #191919;
+}
+
+.why-us .box p {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.why-us .box:hover {
+  background: #cc1616;
+  padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+.why-us .box:hover span,
+.why-us .box:hover h4,
+.why-us .box:hover p {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+>>>>>>> 584de796bb0f8a3c7997f87bf2371671d2ce7a90
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #f2f2f2;
+  background: #c2bcbc;
   padding: 15px 0;
   text-align: center;
 }
@@ -580,83 +743,69 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
-  text-align: center;
-  padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+.services {
+  background-color: rgb(43, 42, 42);
 }
 
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 64px;
-  height: 64px;
-  background: #cc1616;
-  transition: all 0.3s ease-out 0s;
+.no-gutters {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.no-gutters > .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.container {
+  padding: 10px 0;
+  position: relative;
+}
+
+.offer-item {
+  max-width: 372px;
+  min-width: 300px;
+  min-height: 190px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transform-style: preserve-3d;
+  justify-items: center;
+  place-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 253, 253, 0.1);
 }
 
+<<<<<<< HEAD
 .row {
   margin-top: 0 auto;
 }
 .services .icon-box .icon i {
   color: #fff;
   font-size: 28px;
+=======
+.offer-img-container {
+  padding: 0 10px 30px;
+>>>>>>> 584de796bb0f8a3c7997f87bf2371671d2ce7a90
 }
 
-.services .icon-box .icon::before {
-  position: absolute;
-  content: "";
-  left: -8px;
-  top: -8px;
-  height: 100%;
-  width: 100%;
-  background: #fce5e5;
-  transition: all 0.3s ease-out 0s;
-  transform: translateZ(-1px);
+.offer-text {
+  padding: 10px;
 }
 
-.services .icon-box h4 {
+.offer-text p {
+  text-transform: none;
+  font-size: 15px;
   font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 24px;
+  line-height: 1;
+  color: hsla(0, 0%, 100%, 0.877);
 }
 
-.services .icon-box h4 a {
-  color: #191919;
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-  background: #cc1616;
-  border-color: #cc1616;
-  padding: 70px 20px 90px 20px;
-}
-
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-  color: #cc1616;
-}
-
-.services .icon-box:hover .icon::before {
-  background: #e82d2d;
-}
-
-.services .icon-box:hover h4 a,
-.services .icon-box:hover p {
-  color: #fff;
+div {
+  display: block;
 }
 
 /*--------------------------------------------------------------
