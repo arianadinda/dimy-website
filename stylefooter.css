@@ -1,10 +1,12 @@
+body {
+  font-family: "Poppins", " Sans-serif", "important";
+}
+
 .sosmed {
   list-style: none;
   display: inline;
-  border: 2px solid #ffff;
-  padding: 10px;
-  border-radius: 5px;
-  margin-right: 8px;
+  padding: 1px;
+  border-radius: 4px;
 }
 
 p {
@@ -27,13 +29,119 @@ h4 {
   background: #00a2ff;
 }
 
-#topbar {
-  background: white;
+#footbar {
+  background-color: #fff;
   font-size: 14px;
   padding: 0;
-  margin: 0;
+  margin-right: 0;
 }
 
-#topbar .contact-info a {
-  color: #000;
+a {
+  color: black;
+  margin-right: 10px;
+}
+#footbar .contact-info ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#topbar {
+  background: #fff;
+  color: #fff;
+}
+
+/* section */
+#heading-title {
+  text-align: center;
+  font-size: clamp(1rem, 6vw, 2rem);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #212520;
+  font-size: 30px;
+}
+
+.sosmed a {
+  list-style: none;
+  display: inline;
+  border: 2px solid #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 1px;
+}
+
+/* Section */
+.base-padding {
+  padding: 60px 0;
+}
+h1 {
+  z-index: 1;
+  position: relative;
+}
+
+.step-container {
+  padding: 0 20%;
+}
+
+.ant-steps {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  font-feature-settings: "tnum" "tnum";
+  width: 100%;
+  font-size: 0;
+}
+
+.ant-steps-label-vertical .ant-steps-item {
+  overflow: visible;
+}
+
+.ant-steps-item {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.ant-steps-item-container {
+  outline: 0;
+}
+
+[role="button"] {
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.ant-steps-dot .ant-steps-item-tail {
+  top: 2px;
+  width: 100%;
+  margin: 0 0 0 70px;
+  padding: 0;
+}
+.ant-steps-item-tail {
+  position: absolute;
+  left: 0;
+}
+
+/*text*/
+.content-container {
+  height: 100%;
+  font-size: 17px;
+  white-space: pre-line;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #444444;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+/* angka cepat*/
+.base-padding {
+  padding: 60px 0;
 }
