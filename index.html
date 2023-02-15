@@ -28,16 +28,11 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="stylefooter.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css"/>
 
-   
   </head>
-
-  
-
   <body>
-    <!-- ======= Top Bar ======= -->
+    <!-- Top Bar -->
     <section id="topbar" class="d-flex align-items-center bg-dark">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center text-white">
@@ -52,12 +47,12 @@
       </div>
     </section>
 
-    <!-- ======= Header ======= -->
+    <!-- Akhir Top Bar -->
+
+    <!-- Header -->
     <header id="header" class="d-flex align-items-center">
       <div class="container d-flex align-items-center justify-content-between">
         <img src="assets/img/dimy/logo-dimy.svg" alt="Logo" width="180" />
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
         <nav id="navbar" class="navbar">
           <ul>
@@ -87,10 +82,9 @@
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
-        <!-- .navbar -->
       </div>
     </header>
-    <!-- End Header -->
+    <!-- Akhir Header -->
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
@@ -102,30 +96,25 @@
     </section>
     <!-- End Hero -->
 
-    <main id="main">
-      <!-- ======= Why Choose Dimy ======= -->
+      <!-- Why Choose Dimy -->
+      <main id="main"></main>
       <div class="d-none d-md-block base-padding container"></div>
       <div id="heading-title" class="header">
         <h1><b> Why Choose Dimy ?</b></h1>
 
-        <!-- horizontal Steppers-->
+      <!-- horizontal Steppers-->
         
-        <!-- Akhir Horizontal Steppers-->
+      <!-- Akhir Horizontal Steppers-->
 
-        <!-- Teks -->
+      <!-- Teks -->
         <div class="col-md-12 "></div>
     <div class="content-container">
       We help clients create powerful & reliable software to empower their business operations with efficiency and accuracy.
     </div>
 
-    
-        
+        <!-- Akhir Teks -->
 
-    
-        <!-- End Count Item -->
-      <!-- End About Section -->
-
-
+      <!-- Awal Angka -->
 
       <div class="base-padding">
         <div>
@@ -162,45 +151,7 @@
             </div>
           </div>
 
-
-
-
-
-
-      <!-- ======= Why Us Section ======= -->
-      
-
-      <!-- ======= Clients Section ======= -->
-      <section id="clients" class="clients">
-        <div class="container" data-aos="zoom-in">
-          <div class="row d-flex align-items-center">
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" />
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" />
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" />
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" />
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" />
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Clients Section -->
+      <!-- Akhir Angka -->
 
       <!-- ======= Services Section ======= -->
       <section id="services" class="services">
@@ -286,11 +237,7 @@
             </div>
         </div>
       </div>
-    </section>
-
-            
-
-            
+    </section>  
             
       <!-- End Services Section -->
 
@@ -661,5 +608,154 @@
 <script src="assets/js/main.js"></script>
 
 </body>
+<style>
+  body {
+  font-family: "Poppins", " Sans-serif", "important";
+}
 
+.sosmed {
+  list-style: none;
+  display: inline;
+  padding: 1px;
+  border-radius: 4px;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  font-size: 14px;
+}
+
+.footer-title {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.back-to-top {
+  background: #00a2ff;
+}
+
+#footbar {
+  background-color: #fff;
+  font-size: 14px;
+  padding: 0;
+  margin-right: 0;
+}
+
+a {
+  color: black;
+  margin-right: 10px;
+}
+#footbar .contact-info ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#topbar {
+  background: #fff;
+  color: #fff;
+}
+
+/* section */
+#heading-title {
+  text-align: center;
+  font-size: clamp(1rem, 6vw, 2rem);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #212520;
+  font-size: 30px;
+}
+
+.sosmed a {
+  list-style: none;
+  display: inline;
+  border: 2px solid #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 1px;
+}
+
+/* Section */
+.base-padding {
+  padding: 60px 0;
+}
+h1 {
+  z-index: 1;
+  position: relative;
+}
+
+.step-container {
+  padding: 0 20%;
+}
+
+.ant-steps {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  font-feature-settings: "tnum" "tnum";
+  width: 100%;
+  font-size: 0;
+}
+
+.ant-steps-label-vertical .ant-steps-item {
+  overflow: visible;
+}
+
+.ant-steps-item {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.ant-steps-item-container {
+  outline: 0;
+}
+
+[role="button"] {
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.ant-steps-dot .ant-steps-item-tail {
+  top: 2px;
+  width: 100%;
+  margin: 0 0 0 70px;
+  padding: 0;
+}
+.ant-steps-item-tail {
+  position: absolute;
+  left: 0;
+}
+
+/*text*/
+.content-container {
+  height: 100%;
+  font-size: 17px;
+  white-space: pre-line;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #444444;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+/* angka cepat*/
+.base-padding {
+  padding: 60px 0;
+}
+
+</style>
 </html>
